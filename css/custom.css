@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/*bs-docs覆盖*/
+.bs-docs-masthead { padding-top: 10px; }
+.bs-docs-masthead h1.lead { font-size: 32px; }
+.bs-docs-masthead h2.lead { font-size: 20px; }
+.bs-docs-nav .navbar-nav>li>a:hover, .bs-docs-nav .navbar-nav>.active>a, .bs-docs-nav .navbar-nav>.active>a:hover {
+  background-color: #f7f7f7;
+  color: #8d4bbb;
+  /*border-bottom : 3px solid rgb(125,66,150);*/
+}
+
+
+/*缩略图*/
+.thumbnail { border: none; }
+.thumbnail .caption h3 { margin-bottom: 20px; }
+.thumbnail>a>img { 
+  width: 64px;
+  cursor: pointer;
+  transition: width 1s, height 1s;
+  -moz-transition: width 1s, height 1s, -moz-transform 1s; /* Firefox 4 */
+  -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari and Chrome */
+  -o-transition: width 1s, height 1s, -o-transform 1s; /* Opera */
+}
+.thumbnail>a>img:hover {
+  width: 128px;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.circle-img { border-radius: 50%; }
+
+.img256 { width: 256px;}
+
+/* 登录 */
+.form-controls {
+  max-width: 330px;
+  /*padding: 15px;*/
+  margin: 15px auto;
+}
+.form-controls .form-controls-heading,
+.form-controls .checkbox {
+  margin-bottom: 10px;
+}
+.form-controls .checkbox {
+  font-weight: normal;
+}
+.form-controls .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-controls .form-control:focus {
+  z-index: 100;
+}
+.form-controls input.first {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-controls input.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-controls input.last{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*回到顶部*/
+.back-to-top {
+    position: fixed;
+    right: 2%;
+    bottom: 35px;
+    text-decoration: none;
+    color: #EEEEEE;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+
+p.para {
+  padding-left: 20%;
+  padding-right: 20%; 
+  text-align: left;
+  text-indent: 2em;
+}
+.panel-default .panel-title {
+  color: #563d7c;
+  text-align: left;
+}
+
+/*加入我们*/
+
+/*banner*/
+.origin-banner { padding :0; }
+.origin-banner .lead { margin :50px auto; }
+
+/*整体段落*/
+.joinus_para {
+  padding-left: 15px;
+  padding-top: 10px;
+  text-align: left;
+}
+.joinus_para p {
+  padding-top: 20px;
+  text-indent: 2em;
+}
+.joinus_para>h3 { border-bottom : 2px solid rgb(125,66,150); }
+/*职位列表*/
+.joblist {
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  border-left: 5px solid rgb(125,66,150);
+}
+/*评论*/
+.comment .row{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.comment h5 { color: blue; }
+.comment p {
+  padding-top: 10px;
+  text-indent: 0;
+}
+.col-custom1 {
+  float: left;
+  margin-left: 15px;
+}
+.col-custom2 { margin-left: 120px; }
+.col-custom3 { margin-left: 200px; }
+
+/*
+登录注册页样式
+*/
+/*居中*/
+.login .container { 
+  text-align: center;
+  margin: 100px auto 10px;
+}
+.login .form-group>input,.login button {
+  width: 327px;
+  height: 54px;
+}
+/*忘记密码*/
+.forgotpwd {
+  color: #bbb;
+  text-decoration: underline;
+}
+/*没有账户？马上注册*/
+.tosignup {
+  padding-top: 10px;
+}
+.tosignup>a {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+/*紫色按钮*/
+.btn-purple {
+  color: #fff;
+  background-color: #561B8D;
+  border-color: #830089;
+}
+.btn-purple:hover {
+  color: #fff;
+  background-color: #7E19AA;
+   /*#561B99*/
+  border-color: #563d7c
+}
+
+.alert { 
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
