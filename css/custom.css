@@ -4,6 +4,7 @@
 .bs-docs-masthead { padding-top: 10px; }
 .bs-docs-masthead h1.lead { font-size: 32px; }
 .bs-docs-masthead h2.lead { font-size: 20px; }
+.navbar-nav>li { margin-left: 1px;}
 .bs-docs-nav .navbar-nav>li>a:hover, .bs-docs-nav .navbar-nav>.active>a, .bs-docs-nav .navbar-nav>.active>a:hover {
   background-color: #f7f7f7;
   color: #8d4bbb;
@@ -100,11 +101,29 @@ p.para {
   text-align: left;
 }
 
-/*加入我们*/
+/*
+  加入我们
+*/
 
 /*banner*/
 .origin-banner { padding :0; }
 .origin-banner .lead { margin :50px auto; }
+
+.company-title {
+  height: 80px;
+  border-bottom: 1px solid #c1c1c1;
+  margin-right: 35px;
+}
+.company-title span {
+  font-size: 2em;
+  display: inline-table;
+  padding-top: 20px;
+  margin-left: 5px;
+}
+.company-title button {
+  margin-top: 28px;
+  margin-right: 5px;
+}
 
 /*整体段落*/
 .joinus_para {
@@ -122,6 +141,7 @@ p.para {
   background-color: #f0f0f0;
   margin: 20px 0;
   border-left: 5px solid rgb(125,66,150);
+  cursor: pointer;
 }
 /*评论*/
 .comment .row{
@@ -140,6 +160,35 @@ p.para {
 }
 .col-custom2 { margin-left: 120px; }
 .col-custom3 { margin-left: 200px; }
+
+ul.company-brief {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-size: 1.1em;
+  list-style: none;
+}
+.company-intro {
+  margin-top: 30px;  
+}
+.company-intro .title {
+  width: 108px;
+  height: 40px;
+  margin: 30px auto 10px 20px;
+  padding:5px 15px;
+  font-size: 1.2em;
+  background: #5930A3;
+  color: #fff;
+}
+.company-intro .content {
+  margin-left: 25px;
+  font-size: .9em;
+}
+
+
+
+
+
+
 
 /*
 登录注册页样式
@@ -178,9 +227,28 @@ p.para {
    /*#561B99*/
   border-color: #563d7c
 }
-
+/*错误提示*/
 .alert { 
   padding-top: 8px;
   padding-bottom: 8px;
   margin-bottom: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

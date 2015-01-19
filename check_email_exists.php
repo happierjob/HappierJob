@@ -20,7 +20,7 @@ if($action=="signupCheckEmail" && $flag){
 }else if ($action=="loginCheckEmail" && !$flag) {
   echo "<div class='alert alert-danger alert-dismissible' role='alert'>
         <a class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></a>
-        <strong> Opps！</strong> 此邮箱尚未被注册 ！<a href='new.html'>马上注册</a></div>";
+        <strong> Opps！</strong> 此邮箱尚未被注册 ！<a href='signup.html'>马上注册</a></div>";
 
 }
 

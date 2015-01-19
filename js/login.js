@@ -1,5 +1,7 @@
 ;$(function(){
 
+  $('input, textarea').placeholder();
+
   // 登录时检查此邮箱是否存在
   $("#login-email").blur(function(){
     var email = $("#login-email").val();

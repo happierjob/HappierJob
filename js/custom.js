@@ -1,4 +1,7 @@
 ;$(function(){
+
+  $('input, textarea').placeholder();
+
   // $(".thumbnail>a>img.dynamic-img").bind("mouseenter", function(){
   //   $(this).addClass("hover-rotate");
   // }).bind("mouseout", function() {
