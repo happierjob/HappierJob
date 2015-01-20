@@ -8,7 +8,7 @@ if (!$conn){
 }
 mysql_select_db("happierjob_db", $conn);
 //字符转换，读库
-mysql_query("set character set 'gbk'");
+mysql_query("set character set 'utf8'");
 //写库
-mysql_query("set names 'gbk'");
+mysql_query("set names 'utf8'");
 ?>
