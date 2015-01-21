@@ -1,1 +1,1 @@
-2015-01-15  注册登录功能
+Welcome to http://www.happierjob.com
