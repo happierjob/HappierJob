@@ -14,7 +14,7 @@ if(!isset($_POST['submit'])){
     exit('非法访问!');
 }
 
-include('conn.php');
+include('../config/conn.php');
 
 
 if ($action == 'login') {  //登录
@@ -23,7 +23,7 @@ if ($action == 'login') {  //登录
   $check_query = mysql_query("select * from user where email='$email' and password='$password' limit 1");
   if($result = mysql_fetch_array($check_query)){//登录成功
     $_SESSION['email'] = $email;
-    header("location: index.php"); 
+    header("location: ../../index.php"); 
     exit; 
   }else{
     echo "密码错误，请<a href='login.html'>重新登录</a>";
@@ -62,7 +62,7 @@ if($action == 'signup'){ //注册
     $query="insert into user (email,password,regdate) values ('$email','$password','$time')";
     $result=mysql_query($query);
     $_SESSION['email'] = $email;
-    header("location: index.php"); 
+    header("location: ../../index.php"); 
     exit; 
   }
 }

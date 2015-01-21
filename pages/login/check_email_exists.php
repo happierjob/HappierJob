@@ -2,7 +2,7 @@
 $action=$_GET['action'];
 $email=$_GET['email'];
 $flag=false;
-include('conn.php');
+include('../config/conn.php');
 //判断数据库中用户名和email是否已经存在
 $query="select * from user where email='$email'";
 $result=mysql_query($query);

@@ -12,7 +12,7 @@ $contact = $_POST['contact'];
 echo $content;
 echo $contact;
 // 数据写入库表
-require("conn.php");
+require("config/conn.php");
 $createtime = time();
 $insert_sql = "INSERT INTO suggestion(content,contact,createtime) VALUES";
 $insert_sql .= "('$content','$contact',$createtime)";
@@ -24,7 +24,7 @@ l1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Refresh" content="2;url=index.php">
+<meta http-equiv="Refresh" content="2;url=../index.php">
 <title>留言成功</title>
 </head>
 <body>

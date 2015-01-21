@@ -143,16 +143,24 @@ p.para {
   border-left: 5px solid rgb(125,66,150);
   cursor: pointer;
 }
+.joblist:hover {
+  background-color: #D6BDFF;
+  color: darkblue;
+}
 /*评论*/
 .comment .row{
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #f0f0f0;
 }
-.comment h5 { color: blue; }
 .comment p {
   padding-top: 10px;
   text-indent: 0;
+}
+.addComment {
+  float: right;
+  margin-top: 25px;
+  padding-right: 10px;
 }
 .col-custom1 {
   float: left;
