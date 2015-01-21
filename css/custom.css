@@ -24,7 +24,7 @@
   -o-transition: width 1s, height 1s, -o-transform 1s; /* Opera */
 }
 .thumbnail>a>img:hover {
-  width: 128px;
+  width: 100px;
   -webkit-transform: rotate(360deg);
      -moz-transform: rotate(360deg);
        -o-transform: rotate(360deg);
